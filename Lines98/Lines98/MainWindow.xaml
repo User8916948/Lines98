@@ -6,9 +6,111 @@
         xmlns:local="clr-namespace:Lines98"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Grid.RowDefinitions>
-            
-        </Grid.RowDefinitions>
-    </Grid>
+    <Grid Name="MainGrid">
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Height="350" Width="350" Name="Field">
+            <Grid.RowDefinitions >
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Grid.Row="0"  Name="btn00" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="1" Grid.Row="0"  Name="btn01" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="2" Grid.Row="0"  Name="btn02" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="3" Grid.Row="0"  Name="btn03" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="4" Grid.Row="0"  Name="btn04" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="5" Grid.Row="0"  Name="btn05" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="6" Grid.Row="0"  Name="btn06" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="7" Grid.Row="0"  Name="btn07" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="8" Grid.Row="0"  Name="btn08" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="0" Grid.Row="1"  Name="btn10" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="1" Grid.Row="1"  Name="btn11" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="2" Grid.Row="1"  Name="btn12" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="3" Grid.Row="1"  Name="btn13" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="4" Grid.Row="1"  Name="btn14" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="5" Grid.Row="1"  Name="btn15" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="6" Grid.Row="1"  Name="btn16" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="7" Grid.Row="1"  Name="btn17" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="8" Grid.Row="1"  Name="btn18" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="0" Grid.Row="2"  Name="btn20" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="1" Grid.Row="2"  Name="btn21" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="2" Grid.Row="2"  Name="btn22" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="3" Grid.Row="2"  Name="btn23" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="4" Grid.Row="2"  Name="btn24" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="5" Grid.Row="2"  Name="btn25" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="6" Grid.Row="2"  Name="btn26" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="7" Grid.Row="2"  Name="btn27" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="8" Grid.Row="2"  Name="btn28" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="0" Grid.Row="3"  Name="btn30" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="1" Grid.Row="3"  Name="btn31" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="2" Grid.Row="3"  Name="btn32" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="3" Grid.Row="3"  Name="btn33" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="4" Grid.Row="3"  Name="btn34" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="5" Grid.Row="3"  Name="btn35" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="6" Grid.Row="3"  Name="btn36" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="7" Grid.Row="3"  Name="btn37" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="8" Grid.Row="3"  Name="btn38" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="0" Grid.Row="4"  Name="btn40" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="1" Grid.Row="4"  Name="btn41" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="2" Grid.Row="4"  Name="btn42" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="3" Grid.Row="4"  Name="btn43" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="4" Grid.Row="4"  Name="btn44" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="5" Grid.Row="4"  Name="btn45" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="6" Grid.Row="4"  Name="btn46" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="7" Grid.Row="4"  Name="btn47" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="8" Grid.Row="4"  Name="btn48" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="0" Grid.Row="5"  Name="btn50" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="1" Grid.Row="5"  Name="btn51" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="2" Grid.Row="5"  Name="btn52" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="3" Grid.Row="5"  Name="btn53" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="4" Grid.Row="5"  Name="btn54" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="5" Grid.Row="5"  Name="btn55" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="6" Grid.Row="5"  Name="btn56" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="7" Grid.Row="5"  Name="btn57" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="8" Grid.Row="5"  Name="btn58" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="0" Grid.Row="6"  Name="btn60" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="1" Grid.Row="6"  Name="btn61" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="2" Grid.Row="6"  Name="btn62" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="3" Grid.Row="6"  Name="btn63" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="4" Grid.Row="6"  Name="btn64" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="5" Grid.Row="6"  Name="btn65" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="6" Grid.Row="6"  Name="btn66" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="7" Grid.Row="6"  Name="btn67" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="8" Grid.Row="6"  Name="btn68" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="0" Grid.Row="7"  Name="btn70" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="1" Grid.Row="7"  Name="btn71" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="2" Grid.Row="7"  Name="btn72" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="3" Grid.Row="7"  Name="btn73" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="4" Grid.Row="7"  Name="btn74" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="5" Grid.Row="7"  Name="btn75" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="6" Grid.Row="7"  Name="btn76" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="7" Grid.Row="7"  Name="btn77" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="8" Grid.Row="7"  Name="btn78" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="0" Grid.Row="8"  Name="btn80" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="1" Grid.Row="8"  Name="btn81" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="2" Grid.Row="8"  Name="btn82" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="3" Grid.Row="8"  Name="btn83" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="4" Grid.Row="8"  Name="btn84" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="5" Grid.Row="8"  Name="btn85" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="6" Grid.Row="8"  Name="btn86" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="7" Grid.Row="8"  Name="btn87" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+            <Button Grid.Column="8" Grid.Row="8"  Name="btn88" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
+        </Grid>
+     </Grid>
 </Window>

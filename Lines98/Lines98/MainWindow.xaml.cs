@@ -20,9 +20,37 @@ namespace Lines98
     /// </summary>
     public partial class MainWindow : Window
     {
+        Button last=null;
         public MainWindow()
         {
             InitializeComponent();
+            //for (int i = 0; i <= 9; i++)
+            //{
+            //    Button button = new Button
+            //    {
+            //        Margin = new Thickness(1, 1, 1, 1),
+            //        Height = (this.Height - 100) / 9,
+            //        Width = (this.Height - 100) / 9,
+
+            //    };
+            //    Field.Children.Add(button);
+            //}
+        }
+
+        private void BtnClick(object sender, RoutedEventArgs e)
+        {
+            if (last != null)
+            {
+                last.Background = new SolidColorBrush(Colors.Gray);
+            }
+            Button btn = sender as Button;
+            last = btn;
+            btn.Background = new SolidColorBrush(Colors.Black);
+        }
+
+        private void btn00_IsMouseDirectlyOverChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+
         }
     }
 }
