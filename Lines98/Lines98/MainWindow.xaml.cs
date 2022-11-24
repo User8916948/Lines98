@@ -18,39 +18,71 @@ namespace Lines98
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    
     public partial class MainWindow : Window
     {
-        Button last=null;
+        Random random = new Random();
+
+        //int[] colors = {1,2,3,4,5,6,7 };
+        Control last=null;
+        List<string> freeCells = new List<string>();
+        List<List<int>> Cells = new List<List<int>>();
+
+        public void SpawnBalls()
+        {
+            for(int i = 0; i <3; i++)
+            {
+                int choose = random.Next(0, freeCells.Count-1);
+                string ball=freeCells[choose];
+                freeCells.RemoveAt(choose);
+                int color = random.Next(0, 6);
+                char j = ball[0];
+                char k = ball[1];
+                Cells[Convert.ToInt32(j)][Convert.ToInt32(k)]=color;
+                
+            }
+        }
+
         public MainWindow()
         {
             InitializeComponent();
-            //for (int i = 0; i <= 9; i++)
-            //{
-            //    Button button = new Button
-            //    {
-            //        Margin = new Thickness(1, 1, 1, 1),
-            //        Height = (this.Height - 100) / 9,
-            //        Width = (this.Height - 100) / 9,
-
-            //    };
-            //    Field.Children.Add(button);
-            //}
+            foreach(Control c in Field.Children)
+            {
+                //int cell = Int32.Parse(c.Tag.ToString());
+                freeCells.Add(c.Tag.ToString());
+            }
+            
         }
 
         private void BtnClick(object sender, RoutedEventArgs e)
-        {
-            if (last != null)
-            {
-                last.Background = new SolidColorBrush(Colors.Gray);
-            }
-            Button btn = sender as Button;
-            last = btn;
-            btn.Background = new SolidColorBrush(Colors.Black);
+        {  
         }
-
-        private void btn00_IsMouseDirectlyOverChanged(object sender, DependencyPropertyChangedEventArgs e)
+        private void left_click(object sender, MouseButtonEventArgs e)
         {
-
+            SpawnBalls();
+            if(last != null)
+            {
+                last.Background=new SolidColorBrush(Color.FromRgb(181,181,181));//#b5b5b5
+            }
+            Control c = sender as Control; 
+            last = c;
+            c.Background = new SolidColorBrush(Color.FromRgb(38,42,49));//#262A31
+            foreach(string a in freeCells)
+            {
+                System.Diagnostics.Debug.WriteLine($"{a}");
+            }
+            int i = 0;
+            int j = 0;
+            foreach (List<int> a in Cells)
+            {
+                foreach (int b in a)
+                {
+                    System.Diagnostics.Debug.WriteLine($"{b} {i}{j}");
+                    j++;
+                }
+                i++;
+                j = 0;
+            }
         }
     }
 }
