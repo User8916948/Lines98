@@ -6,7 +6,8 @@
              xmlns:local="clr-namespace:Lines98"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800" MouseEnter="UserControl_MouseEnter">
-    <Grid>
-            
+    <Grid Name="aa">
+        <Image Name="im" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="1000" Height="1000" Source="images\ball1.png"/>
+
     </Grid>
 </UserControl>

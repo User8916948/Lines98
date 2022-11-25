@@ -30,177 +30,96 @@
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <!--<Button Grid.Column="0" Grid.Row="0"  Name="btn00" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="1" Grid.Row="0"  Name="btn01" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="2" Grid.Row="0"  Name="btn02" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="3" Grid.Row="0"  Name="btn03" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="4" Grid.Row="0"  Name="btn04" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="5" Grid.Row="0"  Name="btn05" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="6" Grid.Row="0"  Name="btn06" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="7" Grid.Row="0"  Name="btn07" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="8" Grid.Row="0"  Name="btn08" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="0" Grid.Row="1"  Name="btn10" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="1" Grid.Row="1"  Name="btn11" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="2" Grid.Row="1"  Name="btn12" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="3" Grid.Row="1"  Name="btn13" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="4" Grid.Row="1"  Name="btn14" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="5" Grid.Row="1"  Name="btn15" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="6" Grid.Row="1"  Name="btn16" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="7" Grid.Row="1"  Name="btn17" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="8" Grid.Row="1"  Name="btn18" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="0" Grid.Row="2"  Name="btn20" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="1" Grid.Row="2"  Name="btn21" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="2" Grid.Row="2"  Name="btn22" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="3" Grid.Row="2"  Name="btn23" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="4" Grid.Row="2"  Name="btn24" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="5" Grid.Row="2"  Name="btn25" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="6" Grid.Row="2"  Name="btn26" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="7" Grid.Row="2"  Name="btn27" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="8" Grid.Row="2"  Name="btn28" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="0" Grid.Row="3"  Name="btn30" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="1" Grid.Row="3"  Name="btn31" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="2" Grid.Row="3"  Name="btn32" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="3" Grid.Row="3"  Name="btn33" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="4" Grid.Row="3"  Name="btn34" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="5" Grid.Row="3"  Name="btn35" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="6" Grid.Row="3"  Name="btn36" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="7" Grid.Row="3"  Name="btn37" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="8" Grid.Row="3"  Name="btn38" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="0" Grid.Row="4"  Name="btn40" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="1" Grid.Row="4"  Name="btn41" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="2" Grid.Row="4"  Name="btn42" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="3" Grid.Row="4"  Name="btn43" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="4" Grid.Row="4"  Name="btn44" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="5" Grid.Row="4"  Name="btn45" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="6" Grid.Row="4"  Name="btn46" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="7" Grid.Row="4"  Name="btn47" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="8" Grid.Row="4"  Name="btn48" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="0" Grid.Row="5"  Name="btn50" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="1" Grid.Row="5"  Name="btn51" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="2" Grid.Row="5"  Name="btn52" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="3" Grid.Row="5"  Name="btn53" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="4" Grid.Row="5"  Name="btn54" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="5" Grid.Row="5"  Name="btn55" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="6" Grid.Row="5"  Name="btn56" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="7" Grid.Row="5"  Name="btn57" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="8" Grid.Row="5"  Name="btn58" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="0" Grid.Row="6"  Name="btn60" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="1" Grid.Row="6"  Name="btn61" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="2" Grid.Row="6"  Name="btn62" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="3" Grid.Row="6"  Name="btn63" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="4" Grid.Row="6"  Name="btn64" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="5" Grid.Row="6"  Name="btn65" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="6" Grid.Row="6"  Name="btn66" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="7" Grid.Row="6"  Name="btn67" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="8" Grid.Row="6"  Name="btn68" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="0" Grid.Row="7"  Name="btn70" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="1" Grid.Row="7"  Name="btn71" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="2" Grid.Row="7"  Name="btn72" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="3" Grid.Row="7"  Name="btn73" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="4" Grid.Row="7"  Name="btn74" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="5" Grid.Row="7"  Name="btn75" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="6" Grid.Row="7"  Name="btn76" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="7" Grid.Row="7"  Name="btn77" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="8" Grid.Row="7"  Name="btn78" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="0" Grid.Row="8"  Name="btn80" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="1" Grid.Row="8"  Name="btn81" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="2" Grid.Row="8"  Name="btn82" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="3" Grid.Row="8"  Name="btn83" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="4" Grid.Row="8"  Name="btn84" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="5" Grid.Row="8"  Name="btn85" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="6" Grid.Row="8"  Name="btn86" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="7" Grid.Row="8"  Name="btn87" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>
-            <Button Grid.Column="8" Grid.Row="8"  Name="btn88" Click="BtnClick" Background="Gray" Margin="1,1,1,1"></Button>-->
+            
+            <local:Cell Grid.Column="0" Grid.Row="0" Tag="00" x:Name="cell00" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="1" Grid.Row="0" Tag="01" x:Name="cell01" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="2" Grid.Row="0" Tag="02" x:Name="cell02" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="3" Grid.Row="0" Tag="03" x:Name="cell03" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="4" Grid.Row="0" Tag="04" x:Name="cell04" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="5" Grid.Row="0" Tag="05" x:Name="cell05" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="6" Grid.Row="0" Tag="06" x:Name="cell06" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="7" Grid.Row="0" Tag="07" x:Name="cell07" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="8" Grid.Row="0" Tag="08" x:Name="cell08" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
 
-            <UserControl Grid.Column="0" Grid.Row="8" Tag="80" Name="cell80" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="1" Grid.Row="8" Tag="81" Name="cell81" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="2" Grid.Row="8" Tag="82" Name="cell82" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="3" Grid.Row="8" Tag="83" Name="cell83" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="4" Grid.Row="8" Tag="84" Name="cell84" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="5" Grid.Row="8" Tag="85" Name="cell85" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="6" Grid.Row="8" Tag="86" Name="cell86" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="7" Grid.Row="8" Tag="87" Name="cell87" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="8" Grid.Row="8" Tag="88" Name="cell88" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
+            <local:Cell Grid.Column="0" Grid.Row="1" Tag="10" x:Name="cell10" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="1" Grid.Row="1" Tag="11" x:Name="cell11" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="2" Grid.Row="1" Tag="12" x:Name="cell12" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="3" Grid.Row="1" Tag="13" x:Name="cell13" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="4" Grid.Row="1" Tag="14" x:Name="cell14" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="5" Grid.Row="1" Tag="15" x:Name="cell15" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="6" Grid.Row="1" Tag="16" x:Name="cell16" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="7" Grid.Row="1" Tag="17" x:Name="cell17" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="8" Grid.Row="1" Tag="18" x:Name="cell18" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
 
-            <UserControl Grid.Column="0" Grid.Row="7" Tag="70" Name="cell70" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="1" Grid.Row="7" Tag="71" Name="cell71" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="2" Grid.Row="7" Tag="72" Name="cell72" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="3" Grid.Row="7" Tag="73" Name="cell73" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="4" Grid.Row="7" Tag="74" Name="cell74" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="5" Grid.Row="7" Tag="75" Name="cell75" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="6" Grid.Row="7" Tag="76" Name="cell76" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="7" Grid.Row="7" Tag="77" Name="cell77" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="8" Grid.Row="7" Tag="78" Name="cell78" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
+            <local:Cell Grid.Column="0" Grid.Row="2" Tag="20" x:Name="cell20" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="1" Grid.Row="2" Tag="21" x:Name="cell21" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="2" Grid.Row="2" Tag="22" x:Name="cell22" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="3" Grid.Row="2" Tag="23" x:Name="cell23" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="4" Grid.Row="2" Tag="24" x:Name="cell24" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="5" Grid.Row="2" Tag="25" x:Name="cell25" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="6" Grid.Row="2" Tag="26" x:Name="cell26" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="7" Grid.Row="2" Tag="27" x:Name="cell27" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="8" Grid.Row="2" Tag="28" x:Name="cell28" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
 
-            <UserControl Grid.Column="0" Grid.Row="6" Tag="60" Name="cell60" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="1" Grid.Row="6" Tag="61" Name="cell61" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="2" Grid.Row="6" Tag="62" Name="cell62" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="3" Grid.Row="6" Tag="63" Name="cell63" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="4" Grid.Row="6" Tag="64" Name="cell64" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="5" Grid.Row="6" Tag="65" Name="cell65" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="6" Grid.Row="6" Tag="66" Name="cell66" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="7" Grid.Row="6" Tag="67" Name="cell67" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="8" Grid.Row="6" Tag="68" Name="cell68" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
+            <local:Cell Grid.Column="0" Grid.Row="3" Tag="30" x:Name="cell30" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="1" Grid.Row="3" Tag="31" x:Name="cell31" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="2" Grid.Row="3" Tag="32" x:Name="cell32" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="3" Grid.Row="3" Tag="33" x:Name="cell33" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="4" Grid.Row="3" Tag="34" x:Name="cell34" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="5" Grid.Row="3" Tag="35" x:Name="cell35" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="6" Grid.Row="3" Tag="36" x:Name="cell36" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="7" Grid.Row="3" Tag="37" x:Name="cell37" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="8" Grid.Row="3" Tag="38" x:Name="cell38" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
 
-            <UserControl Grid.Column="0" Grid.Row="5" Tag="50" Name="cell50" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="1" Grid.Row="5" Tag="51" Name="cell51" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="2" Grid.Row="5" Tag="52" Name="cell52" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="3" Grid.Row="5" Tag="53" Name="cell53" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="4" Grid.Row="5" Tag="54" Name="cell54" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="5" Grid.Row="5" Tag="55" Name="cell55" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="6" Grid.Row="5" Tag="56" Name="cell56" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="7" Grid.Row="5" Tag="57" Name="cell57" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="8" Grid.Row="5" Tag="58" Name="cell58" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
+            <local:Cell Grid.Column="0" Grid.Row="4" Tag="40" x:Name="cell40" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="1" Grid.Row="4" Tag="41" x:Name="cell41" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="2" Grid.Row="4" Tag="42" x:Name="cell42" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="3" Grid.Row="4" Tag="43" x:Name="cell43" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="4" Grid.Row="4" Tag="44" x:Name="cell44" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="5" Grid.Row="4" Tag="45" x:Name="cell45" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="6" Grid.Row="4" Tag="46" x:Name="cell46" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="7" Grid.Row="4" Tag="47" x:Name="cell47" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="8" Grid.Row="4" Tag="48" x:Name="cell48" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
 
-            <UserControl Grid.Column="0" Grid.Row="4" Tag="40" Name="cell40" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="1" Grid.Row="4" Tag="41" Name="cell41" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="2" Grid.Row="4" Tag="42" Name="cell42" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="3" Grid.Row="4" Tag="43" Name="cell43" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="4" Grid.Row="4" Tag="44" Name="cell44" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="5" Grid.Row="4" Tag="45" Name="cell45" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="6" Grid.Row="4" Tag="46" Name="cell46" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="7" Grid.Row="4" Tag="47" Name="cell47" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="8" Grid.Row="4" Tag="48" Name="cell48" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
+            <local:Cell Grid.Column="0" Grid.Row="5" Tag="50" x:Name="cell50" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="1" Grid.Row="5" Tag="51" x:Name="cell51" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="2" Grid.Row="5" Tag="52" x:Name="cell52" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="3" Grid.Row="5" Tag="53" x:Name="cell53" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="4" Grid.Row="5" Tag="54" x:Name="cell54" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="5" Grid.Row="5" Tag="55" x:Name="cell55" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="6" Grid.Row="5" Tag="56" x:Name="cell56" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="7" Grid.Row="5" Tag="57" x:Name="cell57" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="8" Grid.Row="5" Tag="58" x:Name="cell58" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
 
-            <UserControl Grid.Column="0" Grid.Row="3" Tag="30" Name="cell30" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="1" Grid.Row="3" Tag="31" Name="cell31" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="2" Grid.Row="3" Tag="32" Name="cell32" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="3" Grid.Row="3" Tag="33" Name="cell33" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="4" Grid.Row="3" Tag="34" Name="cell34" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="5" Grid.Row="3" Tag="35" Name="cell35" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="6" Grid.Row="3" Tag="36" Name="cell36" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="7" Grid.Row="3" Tag="37" Name="cell37" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="8" Grid.Row="3" Tag="38" Name="cell38" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
+            <local:Cell Grid.Column="0" Grid.Row="6" Tag="60" x:Name="cell60" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="1" Grid.Row="6" Tag="61" x:Name="cell61" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="2" Grid.Row="6" Tag="62" x:Name="cell62" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="3" Grid.Row="6" Tag="63" x:Name="cell63" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="4" Grid.Row="6" Tag="64" x:Name="cell64" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="5" Grid.Row="6" Tag="65" x:Name="cell65" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="6" Grid.Row="6" Tag="66" x:Name="cell66" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="7" Grid.Row="6" Tag="67" x:Name="cell67" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="8" Grid.Row="6" Tag="68" x:Name="cell68" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
 
-            <UserControl Grid.Column="0" Grid.Row="2" Tag="20" Name="cell20" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="1" Grid.Row="2" Tag="21" Name="cell21" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="2" Grid.Row="2" Tag="22" Name="cell22" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="3" Grid.Row="2" Tag="23" Name="cell23" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="4" Grid.Row="2" Tag="24" Name="cell24" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="5" Grid.Row="2" Tag="25" Name="cell25" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="6" Grid.Row="2" Tag="26" Name="cell26" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="7" Grid.Row="2" Tag="27" Name="cell27" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="8" Grid.Row="2" Tag="28" Name="cell28" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
+            <local:Cell Grid.Column="0" Grid.Row="7" Tag="70" x:Name="cell70" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="1" Grid.Row="7" Tag="71" x:Name="cell71" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="2" Grid.Row="7" Tag="72" x:Name="cell72" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="3" Grid.Row="7" Tag="73" x:Name="cell73" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="4" Grid.Row="7" Tag="74" x:Name="cell74" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="5" Grid.Row="7" Tag="75" x:Name="cell75" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="6" Grid.Row="7" Tag="76" x:Name="cell76" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="7" Grid.Row="7" Tag="77" x:Name="cell77" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="8" Grid.Row="7" Tag="78" x:Name="cell78" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
 
-            <UserControl Grid.Column="0" Grid.Row="1" Tag="10" Name="cell10" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="1" Grid.Row="1" Tag="11" Name="cell11" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="2" Grid.Row="1" Tag="12" Name="cell12" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="3" Grid.Row="1" Tag="13" Name="cell13" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="4" Grid.Row="1" Tag="14" Name="cell14" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="5" Grid.Row="1" Tag="15" Name="cell15" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="6" Grid.Row="1" Tag="16" Name="cell16" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="7" Grid.Row="1" Tag="17" Name="cell17" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="8" Grid.Row="1" Tag="18" Name="cell18" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-
-            <UserControl Grid.Column="0" Grid.Row="0" Tag="00" Name="cell00" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="1" Grid.Row="0" Tag="01" Name="cell01" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="2" Grid.Row="0" Tag="02" Name="cell02" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="3" Grid.Row="0" Tag="03" Name="cell03" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="4" Grid.Row="0" Tag="04" Name="cell04" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="5" Grid.Row="0" Tag="05" Name="cell05" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="6" Grid.Row="0" Tag="06" Name="cell06" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="7" Grid.Row="0" Tag="07" Name="cell07" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
-            <UserControl Grid.Column="8" Grid.Row="0" Tag="08" Name="cell08" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></UserControl>
+            <local:Cell Grid.Column="0" Grid.Row="8" Tag="80" x:Name="cell80" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="1" Grid.Row="8" Tag="81" x:Name="cell81" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="2" Grid.Row="8" Tag="82" x:Name="cell82" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="3" Grid.Row="8" Tag="83" x:Name="cell83" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="4" Grid.Row="8" Tag="84" x:Name="cell84" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="5" Grid.Row="8" Tag="85" x:Name="cell85" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="6" Grid.Row="8" Tag="86" x:Name="cell86" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="7" Grid.Row="8" Tag="87" x:Name="cell87" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="8" Grid.Row="8" Tag="88" x:Name="cell88" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
         </Grid>
      </Grid>
 </Window>

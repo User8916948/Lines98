@@ -24,21 +24,22 @@ namespace Lines98
         Random random = new Random();
 
         //int[] colors = {1,2,3,4,5,6,7 };
-        Control last=null;
+        Cell last=null;
         List<string> freeCells = new List<string>();
-        List<List<int>> Cells = new List<List<int>>();
+        //List<List<int>> Cells = new List<List<int>>();
+        int[,] Cells = new int[9, 9];
 
         public void SpawnBalls()
         {
             for(int i = 0; i <3; i++)
             {
                 int choose = random.Next(0, freeCells.Count-1);
-                string ball=freeCells[choose];
+                int ball=Int32.Parse(freeCells[choose]);
                 freeCells.RemoveAt(choose);
-                int color = random.Next(0, 6);
-                char j = ball[0];
-                char k = ball[1];
-                Cells[Convert.ToInt32(j)][Convert.ToInt32(k)]=color;
+                int color = random.Next(2, 9);
+                Cells[ball/10, ball % 10]=color;
+                Cell cell =this.FindName($"cell{ball / 10}{ball % 10}") as Cell;
+                cell.DrawBall(color);
                 
             }
         }
@@ -64,7 +65,7 @@ namespace Lines98
             {
                 last.Background=new SolidColorBrush(Color.FromRgb(181,181,181));//#b5b5b5
             }
-            Control c = sender as Control; 
+            Cell c = sender as Cell; 
             last = c;
             c.Background = new SolidColorBrush(Color.FromRgb(38,42,49));//#262A31
             foreach(string a in freeCells)
@@ -73,16 +74,16 @@ namespace Lines98
             }
             int i = 0;
             int j = 0;
-            foreach (List<int> a in Cells)
-            {
-                foreach (int b in a)
-                {
-                    System.Diagnostics.Debug.WriteLine($"{b} {i}{j}");
-                    j++;
-                }
-                i++;
-                j = 0;
-            }
+            //foreach (List<int> a in Cells)
+            //{
+            //    foreach (int b in a)
+            //    {
+            //        System.Diagnostics.Debug.WriteLine($"{b} {i}{j}");
+            //        j++;
+            //    }
+            //    i++;
+            //    j = 0;
+            //}
         }
     }
 }

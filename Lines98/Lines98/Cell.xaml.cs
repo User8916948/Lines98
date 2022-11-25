@@ -9,6 +9,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -32,7 +33,22 @@ namespace Lines98
 
         private void UserControl_MouseEnter(object sender, MouseEventArgs e)
         {
-            this.Background=new SolidColorBrush(Colors.White);
+            //this.Background=new SolidColorBrush(Colors.White);
+        }
+        public void DrawBall(int color)
+        {
+            DrawingGroup imageDrawings = new DrawingGroup();
+
+            ImageDrawing bigKiwi = new ImageDrawing();
+            bigKiwi.Rect = new Rect(0, 0, 50, 50);
+            bigKiwi.ImageSource = new BitmapImage(
+                new Uri($@"images\ball{color}.png", UriKind.Relative));
+            imageDrawings.Children.Add(bigKiwi);
+            DrawingImage drawingImageSource = new DrawingImage(imageDrawings);
+            Image imageControl = new Image();
+            imageControl.Stretch = Stretch.None;
+            imageControl.Source = drawingImageSource;
+            aa.Children.Add(imageControl);
         }
     }
 }
