@@ -21,6 +21,8 @@ namespace Lines98
     /// </summary>
     public partial class Cell : UserControl
     {
+        public bool ContainsBall=false;
+        public int color = 0;
         public Cell()
         {
             InitializeComponent();
@@ -37,18 +39,51 @@ namespace Lines98
         }
         public void DrawBall(int color)
         {
+            this.color = color;
             DrawingGroup imageDrawings = new DrawingGroup();
 
-            ImageDrawing bigKiwi = new ImageDrawing();
-            bigKiwi.Rect = new Rect(0, 0, 50, 50);
-            bigKiwi.ImageSource = new BitmapImage(
+            ImageDrawing Ball = new ImageDrawing();
+            Ball.Rect = new Rect(0, 0, 50, 50);
+            Ball.ImageSource = new BitmapImage(
                 new Uri($@"images\ball{color}.png", UriKind.Relative));
-            imageDrawings.Children.Add(bigKiwi);
+            imageDrawings.Children.Add(Ball);
             DrawingImage drawingImageSource = new DrawingImage(imageDrawings);
             Image imageControl = new Image();
             imageControl.Stretch = Stretch.None;
             imageControl.Source = drawingImageSource;
             aa.Children.Add(imageControl);
+            ContainsBall = true;
+        }
+        public void DrawPath()
+        {
+                DrawingGroup imageDrawings = new DrawingGroup();
+
+                ImageDrawing Ball = new ImageDrawing();
+                Ball.Rect = new Rect(0, 0, 15, 15);
+                Ball.ImageSource = new BitmapImage(
+                    new Uri($@"images\ballpath.png", UriKind.Relative));
+                imageDrawings.Children.Add(Ball);
+                DrawingImage drawingImageSource = new DrawingImage(imageDrawings);
+                Image imageControl = new Image();
+                imageControl.Stretch = Stretch.None;
+                imageControl.Source = drawingImageSource;
+                aa.Children.Add(imageControl);
+                this.UpdateLayout();
+                UpdateLayout();
+                InvalidateVisual();
+                aa.UpdateLayout();
+                aa.InvalidateVisual();
+                imageControl.UpdateLayout();
+                imageControl.InvalidateVisual();
+        }
+        public void RemovePath()
+        {
+            if (aa.Children.Count > 0)
+            {
+
+
+                aa.Children.RemoveAt(aa.Children.Count - 1);
+            }
         }
     }
 }

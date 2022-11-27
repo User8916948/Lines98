@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lines98"
         mc:Ignorable="d"
+        SizeChanged="ssss"
         Title="MainWindow" Height="600" Width="800">
     <Grid Name="MainGrid">
         <Grid HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="500" Width="500" Name="Field">
@@ -31,15 +32,15 @@
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
             
-            <local:Cell Grid.Column="0" Grid.Row="0" Tag="00" x:Name="cell00" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
-            <local:Cell Grid.Column="1" Grid.Row="0" Tag="01" x:Name="cell01" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
-            <local:Cell Grid.Column="2" Grid.Row="0" Tag="02" x:Name="cell02" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
-            <local:Cell Grid.Column="3" Grid.Row="0" Tag="03" x:Name="cell03" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
-            <local:Cell Grid.Column="4" Grid.Row="0" Tag="04" x:Name="cell04" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
-            <local:Cell Grid.Column="5" Grid.Row="0" Tag="05" x:Name="cell05" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
-            <local:Cell Grid.Column="6" Grid.Row="0" Tag="06" x:Name="cell06" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
-            <local:Cell Grid.Column="7" Grid.Row="0" Tag="07" x:Name="cell07" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
-            <local:Cell Grid.Column="8" Grid.Row="0" Tag="08" x:Name="cell08" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="0" Grid.Row="0" Tag="00" x:Name="cell0" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="1" Grid.Row="0" Tag="01" x:Name="cell1" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="2" Grid.Row="0" Tag="02" x:Name="cell2" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="3" Grid.Row="0" Tag="03" x:Name="cell3" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="4" Grid.Row="0" Tag="04" x:Name="cell4" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="5" Grid.Row="0" Tag="05" x:Name="cell5" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="6" Grid.Row="0" Tag="06" x:Name="cell6" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="7" Grid.Row="0" Tag="07" x:Name="cell7" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
+            <local:Cell Grid.Column="8" Grid.Row="0" Tag="08" x:Name="cell8" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
 
             <local:Cell Grid.Column="0" Grid.Row="1" Tag="10" x:Name="cell10" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
             <local:Cell Grid.Column="1" Grid.Row="1" Tag="11" x:Name="cell11" Background="#B5B5B5" MouseLeftButtonDown="left_click" BorderBrush="#D8D8D8" BorderThickness="1"></local:Cell>
